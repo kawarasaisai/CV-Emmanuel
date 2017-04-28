@@ -1,0 +1,10 @@
+
+#header {
+    width: 90%;
+    border: 1px groove rgba(255, 100, 50, 0.5);
+    background-color: red;
+}
+
+.pretty {
+    background-color: aqua;
+}
