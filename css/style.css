@@ -1,10 +1,210 @@
+/*
+font-family: 'Anton', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Monoton', cursive;
+font-family: 'Megrim', cursive;
+font-family: 'Codystar', cursive;
+*/
 
 #header {
-    width: 90%;
-    border: 1px groove rgba(255, 100, 50, 0.5);
-    background-color: red;
+    width: 100%;
+    height: 500px;
+    border: 0px groove rgba(255, 100, 50, 0.5);
+    background-image: url("../img/2-pigment.jpg");
+    background-size:cover;
+    background-position: center;
+    /*position: relative;*/
+    border-style: solid;
+    border-width: 0px;
+    border-color:deepskyblue;
+    clear: both;
+
 }
 
 .pretty {
     background-color: aqua;
+}
+
+#wrapper {
+    width:1200px;
+    border-style: solid;
+    border-width: 0px;
+    border-color:red;
+    background-color: green;
+    display: inline-block;
+}
+
+#background {
+    float:right;
+}
+
+nav {
+    float:left;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+li {
+    text-decoration: none;
+    display:block;
+    float:left;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
+
+}
+
+ul {
+    list-style: none;
+    margin-left: 0px;
+    position:absolute;
+    padding: 10px 40px 10px 0px;
+    background-color: rgba(255,255,255,0.8);
+    width:1160px;
+}
+
+#bg {
+        width:100%;
+        height: 100%;
+    }
+
+#presentation {
+    margin-left: 50px;
+    background-color: white;
+    height:150px;
+    width: 500px;
+    border-style: solid;
+    border-width: 0px;
+    border-color:green;
+    text-align: justify;
+    float:left;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-family: 'Codystar', cursive;
+
+}
+
+
+h1 {
+    position:absolute;
+    color:white;
+    font-family:inherit;
+    font-size:70px;
+    text-align: center;
+    vertical-align: middle;
+    margin-left: 300px;
+    margin-top: 0px;
+    padding-top:220px;
+}
+
+#salutation:hover {
+
+    box-shadow: 5px 5px 20px black;
+    background-image: url("../img/2-pigment.jpg");
+    background-size: 1800px;
+    background-repeat: no-repeat;
+    background-position: -870px -480px;
+}
+#salutation {
+    position:absolute;
+    margin: 100px 0px 0px 20%;
+    padding:180px 10px;
+    background-color: rgba(255,255, 255, 0.4);
+    border:1px inset black;
+    border-radius: 100%;
+    /*transform: rotate(-20deg);*/
+    box-shadow: 5px 5px 40px black inset;
+    background-image: url("../img/2-pigment.jpg");
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: -430px -248px;
+}
+#salutation span {
+    display: block;
+    background-color: black;
+    border-bottom: double 3px white;
+    border-top: double 3px white;
+    padding: 0px 20px;
+    transform: rotate(-20deg);
+}
+h2{
+    position:relative;
+    color:cadetblue;
+    font-family:inherit;
+    font-size:30px;
+    text-align:left;
+    margin-top: 50px;
+    margin-left: 50px;
+    width:200px;
+}
+
+nav a:hover {
+    font-size: 1.3em;
+    color:red;
+    transition: ease-out 0.25s all;
+}
+
+nav a{
+   color:rgba(255,25,25,0.7);
+   text-decoration: none;
+     transition: ease-out 0.25s all;
+}
+
+.xy {
+   color:rgba(25,25,25,0.7);
+   text-decoration: none;
+}
+
+nav li:nth-child(3n+1) a{
+   color:rgba(25,25,235,0.7);
+   text-decoration: none;
+}
+
+
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+#Erfahrung.html {
+    color:black
+}
+
+
+
+#ma photo {
+
+}
+
+#picture {
+    height:350px;
+    width: 350px;
+    border-style:solid;
+    border-width: 0px;
+    border-color:red;
+    border-radius: 50px;
+    margin-top: -80px;
+    margin-left:100px;
+    text-align: left;
+    position: absolute;
+
+}
+
+
+
+h3 {
+    position:relative;
+    color:cadetblue;
+    font-family:inherit;
+    font-size:20px;
+    text-align:left;
+    margin-top: 0px;
+    margin-left: 50px;
+    width:250px;
+}
+
+#Erfahrungen {
+    text-align: left;
+    color: white;
 }
